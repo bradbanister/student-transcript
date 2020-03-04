@@ -1,0 +1,19 @@
+Domain Entity PostSecondaryOrganization
+    documentation "PostSecondaryOrganization"
+    shared string EdFi.NameOfInstitution
+        deprecated "A bunch of deprecation text to check on column word wrapping on the handbook web page"
+        documentation "The name of the institution."
+        is part of identity
+    descriptor InstitutionLevel
+        documentation "The level of the institution."
+        is required
+    descriptor InstitutionControl
+        documentation "The type of control of the institution (i.e., public or private)."
+        is required
+    string AcceptanceIndicator
+        documentation "An indication of acceptance."
+        is required
+        max length 10
+    domain entity EdFi.DisciplineAction
+        documentation "The level of the institution."
+        is required

@@ -1,0 +1,3 @@
+Descriptor InstitutionControl
+    deprecated "Doh"
+    documentation "The type of control for an institution (e.g., public or private)."

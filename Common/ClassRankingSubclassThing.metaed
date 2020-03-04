@@ -1,0 +1,5 @@
+Common ClassRankingSubclassThing based on EdFi.ClassRanking
+    documentation "Hi"
+    bool NewBoolean
+        documentation "The graduation status for special education."
+        is part of identity

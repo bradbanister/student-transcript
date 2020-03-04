@@ -1,0 +1,9 @@
+{
+  "name": "student-transcript-1.0",
+  "version": "1.0.0",
+  "license": "private",
+  "metaEdProject": {
+    "projectName": "Extension",
+    "projectVersion": "1.0.0"
+  }
+}
